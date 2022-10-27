@@ -1,0 +1,51 @@
+.message {
+    color: white;
+    background: #0066cc;
+    width: 400px;
+    margin-top: 24px;
+    border-radius: 13px 13px 13px 13px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 100px;
+
+}
+
+.imageAndText {
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.imageAndText img {
+margin-right: -60px ;
+    width: 40px;
+    order: 2;
+}
+
+.text {
+    order: 1;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.text:after {
+
+}
+
+.name {
+
+}
+
+.messageText {
+
+}
+
+.time {
+    order: 3;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 12px;
+    margin-right: -55px ;
+    color: #000;
+}
